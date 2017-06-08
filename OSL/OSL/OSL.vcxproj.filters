@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="osl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="osl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="oslForward.frag.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="oslShader.comp.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="textureGen.frag.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="textureGen.vert.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="textureGen.geom.glsl">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="oslForward.vert.glsl">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{43fb9ce4-0683-44fc-8de8-068306f8ffbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{838eece5-d759-479f-9a7d-0823e88a3467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
